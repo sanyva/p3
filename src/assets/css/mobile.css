@@ -1,0 +1,28 @@
+:root {
+	--sm-size: 8px;
+	--white: #ffffff;
+}
+
+@media (max-width: 1023.99px) {
+	.m-mr-sm{
+		margin-right: var(--sm-size)
+	}
+	.m-mb-sm{
+		margin-bottom: var(--sm-size)
+	}
+	.m-mt-sm{
+		margin-top: var(--sm-size)
+	}
+}
+
+@media (min-width: 1023.99px) {
+	.m-mr-md{
+		margin-right: var(--sm-size)
+	}
+	.m-mb-md{
+		margin-bottom: var(--sm-size)
+	}
+	.m-mt-md{
+		margin-top: var(--sm-size)
+	}
+}
